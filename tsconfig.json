@@ -1,11 +1,9 @@
 {
   "compilerOptions": {
+    // 不允许隐式的any类型
+    "noImplicitAny": true,
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -25,7 +23,5 @@
       }
     ]
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }
